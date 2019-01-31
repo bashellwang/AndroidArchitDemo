@@ -8,6 +8,9 @@ import com.bashellwang.androidarchitdemo.mvp.presenter.IPresenter;
 
 /**
  * Created by bashellwang on 2019/1/25.
+ * <p>
+ * View 层 Activity 基类，实现 IView 接口，供 P 层调用；
+ * 同时持有 P 层（实现 P 层 抽象接口 IPresenter ），调用 P 层功能
  */
 public abstract class BaseMvpActivity<P extends IPresenter> extends AppCompatActivity implements IView {
 

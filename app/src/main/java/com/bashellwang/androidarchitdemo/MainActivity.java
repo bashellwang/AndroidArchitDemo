@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-import com.bashellwang.androidarchitdemo.mvp.view.MvpDemoActivity;
+import com.bashellwang.androidarchitdemo.mvp.userdetail.MvpDemoActivity;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {

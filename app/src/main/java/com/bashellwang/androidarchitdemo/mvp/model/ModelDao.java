@@ -1,6 +1,8 @@
 package com.bashellwang.androidarchitdemo.mvp.model;
 
 
+import com.bashellwang.androidarchitdemo.mvp.model.bean.User;
+
 /**
  * Created by liang.wang on 2019/1/30.
  */

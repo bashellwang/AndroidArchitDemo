@@ -1,4 +1,4 @@
-package com.bashellwang.androidarchitdemo.mvp.model;
+package com.bashellwang.androidarchitdemo.mvp.model.bean;
 
 import android.view.View;
 import android.widget.Toast;

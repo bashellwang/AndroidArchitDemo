@@ -1,12 +1,14 @@
 package com.bashellwang.androidarchitdemo.mvp.model;
 
 
+import com.bashellwang.androidarchitdemo.mvp.model.bean.User;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 /**
- * 这里是对外获取数据的统一类，内部实现可分别从本地获取、从网络获取
+ * 这里是对外获取 User 数据的统一类，内部实现可分别从本地获取、从网络获取
  * <p>
  * 可参考：https://github.com/googlesamples/android-architecture/blob/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/TasksRepository.java
  * 这里只模拟从本地获取数据
@@ -15,6 +17,9 @@ public class UserModelDao implements ModelDao {
     private static List<User> mUserList;
 
 
+    /**
+     * 模拟假数据
+     */
     private void mockData() {
         mUserList = new ArrayList<>();
         mUserList.clear();

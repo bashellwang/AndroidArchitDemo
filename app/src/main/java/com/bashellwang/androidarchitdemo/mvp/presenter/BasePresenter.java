@@ -6,6 +6,8 @@ import java.lang.ref.WeakReference;
 
 /**
  * Created by bashellwang on 2019/1/25.
+ *
+ * presenter 基类，封装类一些基础操作
  */
 public abstract class BasePresenter<V extends IView> implements IPresenter<V> {
     private WeakReference<V> weakReference;
