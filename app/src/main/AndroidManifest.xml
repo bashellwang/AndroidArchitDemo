@@ -21,6 +21,7 @@
         </activity>
 
         <activity android:name=".mvp.userdetail.MvpDemoActivity"/>
+        <activity android:name=".mvvm.view.MvvmDemoActivity"/>
     </application>
 
 </manifest>

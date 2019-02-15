@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.bashellwang.androidarchitdemo.mvp.userdetail.MvpDemoActivity;
+import com.bashellwang.androidarchitdemo.mvvm.view.MvvmDemoActivity;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(mvpIntent);
                 break;
             case R.id.mvvm_btn:
+                Intent mvvmIntent = new Intent(this, MvvmDemoActivity.class);
+                startActivity(mvvmIntent);
                 break;
 
             default:
